@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
     return ScreenTypeLayout(
       mobile: HomeMobile(),
       tablet: HomeTab(),
-      desktop: HomeDesktop(),
+      desktop: HomeDesktop(), // quand je suis sur un ordinateur
     );
   }
 }

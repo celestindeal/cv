@@ -18,14 +18,14 @@ class HomeTab extends StatelessWidget {
       width: width,
       child: Stack(
         children: [
-          Positioned(
-            bottom: width < 740 ? height * 0.1 : height * 0.15,
-            right: width < 740 ? -width * 0.2 : -width * 0.1,
-            child: Opacity(
-              opacity: 0.9,
-              child: Image.asset('assets/1.png', height: height * 0.75),
-            ),
-          ),
+          // Positioned(
+          //   bottom: width < 740 ? height * 0.1 : height * 0.15,
+          //   right: width < 740 ? -width * 0.2 : -width * 0.1,
+          //   child: Opacity(
+          //     opacity: 0.9,
+          //     child: Image.asset('assets/1.png', height: height * 0.75),
+          //   ),
+          // ),
           Container(
             margin: EdgeInsets.fromLTRB(
                 width * 0.1, width < 740 ? height * 0.15 : height * 0.2, 0, 0),
@@ -36,7 +36,7 @@ class HomeTab extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "WELCOME TO MY PORTFOLIO! ",
+                      "BIENVENUE SUR MON PORTFOLIO!  ",
                       style: GoogleFonts.montserrat(
                         fontSize: height * 0.03,
                         fontWeight: FontWeight.w300,
@@ -45,10 +45,10 @@ class HomeTab extends StatelessWidget {
                             : Colors.white,
                       ),
                     ),
-                    Image.asset(
-                      "assets/hi.gif",
-                      height: height * 0.05,
-                    ),
+                    // Image.asset(
+                    //   "assets/hi.gif",
+                    //   height: height * 0.05,
+                    // ),
                   ],
                 ),
                 SizedBox(
@@ -89,11 +89,7 @@ class HomeTab extends StatelessWidget {
                               ? Colors.black
                               : Colors.white,
                         ),
-                        text: [
-                          " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
-                        ]),
+                        text: [" Inversti", " Travailleur", " Ambitieux"]),
                   ],
                 ),
                 SizedBox(
