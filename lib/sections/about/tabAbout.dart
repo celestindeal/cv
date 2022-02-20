@@ -48,7 +48,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.032,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "I'm Deal Célestin, a Flutter developer, Technical blog writer and UI designer.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.035,
               fontWeight: FontWeight.w400,
@@ -115,7 +115,7 @@ class AboutTab extends StatelessWidget {
                 children: [
                   AboutMeMetaData(
                     data: "Name",
-                    information: "Muhammad Hamza",
+                    information: "Deal Célestin",
                   ),
                   AboutMeMetaData(
                     data: "Age",
@@ -131,7 +131,7 @@ class AboutTab extends StatelessWidget {
                 children: [
                   AboutMeMetaData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "Célestin.6.shakeel@gmail.com",
                   ),
                   AboutMeMetaData(
                     data: "From",

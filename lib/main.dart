@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Hamza',
+        title: 'Célestin',
         theme: ThemeStyles.themeData(_themeProvider.lightTheme, context),
         initialRoute: "/",
         routes: {

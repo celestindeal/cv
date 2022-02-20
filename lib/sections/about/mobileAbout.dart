@@ -51,7 +51,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.028,
           ),
           Text(
-            "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+            "I'm Deal Célestin, a Flutter developer, Technical blog writer and UI designer.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.022,
               fontWeight: FontWeight.w400,
@@ -121,12 +121,12 @@ class AboutMobile extends StatelessWidget {
           ),
           AboutMeMetaData(
             data: "Name",
-            information: "Muhammad Hamza",
+            information: "Deal Célestin",
             alignment: Alignment.centerLeft,
           ),
           AboutMeMetaData(
             data: "Email",
-            information: "hamza.6.shakeel@gmail.com",
+            information: "Célestin.6.shakeel@gmail.com",
             alignment: Alignment.centerLeft,
           ),
           SizedBox(

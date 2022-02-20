@@ -30,8 +30,8 @@ class _MainPageState extends State<MainPage> {
   ScrollController _scrollController = ScrollController();
 
   final List<String> _sectionsName = [
-    "HOME",
-    "ABOUT",
+    "ACCUEIL",
+    "PRESENTATION",
     "SERVICES",
     "PROJECTS",
     "CONTACT"

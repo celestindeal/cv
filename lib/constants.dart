@@ -20,7 +20,7 @@ const kSocialLinks = [
   "https://twitter.com/mhmzdev",
   "https://linkedin.com/in/mhmzdev",
   "https://github.com/mhmzdev",
-  "https://mhamzadev.medium.com"
+  "https://mCélestindev.medium.com"
 ];
 
 // URL Launcher
@@ -73,7 +73,7 @@ final kServicesTitles = [
 //   "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
 //   "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
 //   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-//   "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images with interesting topics.\nMy Medium profile @mhamzadev",
+//   "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images with interesting topics.\nMy Medium profile @mCélestindev",
 //   "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nMy GitHub Profile @mhmzdev",
 // ];
 
@@ -86,10 +86,10 @@ final kServicesDescriptions = [
 ];
 
 final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
+  "https://www.fiverr.com/Célestin6shakeel/be-your-mobile-app-developer-via-flutter",
+  "https://www.fiverr.com/Célestin6shakeel/get-you-modern-ui-design-using-adobe-xd",
+  "https://www.fiverr.com/Célestin6shakeel/be-your-mobile-app-developer-via-flutter",
+  "https://mCélestindev.medium.com",
   "https://github.com/mhmzdev"
 ];
 
@@ -169,5 +169,5 @@ final kContactTitles = [
 final kContactDetails = [
   "Attock, Pakistan",
   "(+92) 346 0159889",
-  "hamza@mhmz.dev"
+  "Célestin@mhmz.dev"
 ];

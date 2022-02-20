@@ -71,7 +71,7 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 AdaptiveText(
-                  "Muhammad",
+                  "Deal",
                   style: GoogleFonts.montserrat(
                       fontSize: width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
@@ -81,7 +81,7 @@ class HomeDesktop extends StatelessWidget {
                       letterSpacing: 4.0),
                 ),
                 AdaptiveText(
-                  "Hamza",
+                  "Célestin",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black

@@ -55,7 +55,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.",
+                        "I'm Deal Célestin, a Flutter developer, Technical blog writer and UI designer.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
@@ -121,11 +121,11 @@ class AboutDesktop extends StatelessWidget {
                         children: [
                           AboutMeMetaData(
                             data: "Name",
-                            information: "Muhammad Hamza",
+                            information: "Deal Célestin",
                           ),
                           AboutMeMetaData(
                             data: "Email",
-                            information: "hamza.6.shakeel@gmail.com",
+                            information: "Célestin.6.shakeel@gmail.com",
                           ),
                         ],
                       ),
