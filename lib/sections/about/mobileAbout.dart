@@ -1,20 +1,13 @@
-import 'package:flutter/foundation.dart';
 import 'package:folio/provider/themeProvider.dart';
-import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:provider/provider.dart';
-import 'package:universal_html/html.dart' as html;
 
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/widget/aboutMeMetaData.dart';
-import 'package:folio/widget/communityIconBtn.dart';
 import 'package:folio/widget/toolsTechWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutMobile extends StatelessWidget {
-  final _communityLogoHeight = [40.0, 50.0, 20.0];
-
   @override
   Widget build(BuildContext context) {
     final _themeProvider = Provider.of<ThemeProvider>(context);
@@ -100,7 +93,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Row(
             children: [
-              for (int i = (kTools.length / 2).toInt(); i < kTools.length; i++)
+              for (int i = kTools.length ~/ 2; i < kTools.length; i++)
                 ToolTechWidget(
                   techName: kTools[i],
                 ),

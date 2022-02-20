@@ -1,19 +1,12 @@
-import 'package:flutter/foundation.dart';
 import 'package:folio/provider/themeProvider.dart';
-import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:provider/provider.dart';
-import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/widget/aboutMeMetaData.dart';
-import 'package:folio/widget/communityIconBtn.dart';
 import 'package:folio/widget/toolsTechWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AboutTab extends StatelessWidget {
-  final _communityLogoHeight = [60.0, 70.0, 30.0];
-
   @override
   Widget build(BuildContext context) {
     final _themeProvider = Provider.of<ThemeProvider>(context);
