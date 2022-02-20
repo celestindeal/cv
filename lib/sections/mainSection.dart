@@ -241,7 +241,7 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                    'https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing',
                     "pdf");
               },
               child: Text(
@@ -319,7 +319,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing");
+                        "https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing");
                   },
                   child: ListTile(
                     leading: Icon(
@@ -327,7 +327,7 @@ class _MainPageState extends State<MainPage> {
                       color: Colors.red,
                     ),
                     title: Text(
-                      "RESUME",
+                      "TÉLÉCHARGER",
                       style: GoogleFonts.montserrat(
                         fontWeight: FontWeight.w300,
                         color: theme.lightTheme ? Colors.black : Colors.white,

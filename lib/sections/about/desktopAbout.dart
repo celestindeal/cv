@@ -22,23 +22,24 @@ class AboutDesktop extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
 
     return Container(
+      height: height - 50,
       padding: EdgeInsets.symmetric(
         horizontal: width * 0.02,
       ),
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nAbout Me"),
-          CustomSectionSubHeading(text: "Get to know me :)"),
+          CustomSectionHeading(text: "\n A Propo de moi"),
+          CustomSectionSubHeading(text: "Apprendre à me connaître :)"),
           SizedBox(height: 30.0),
           Row(
             children: [
-              Expanded(
-                child: Image.asset(
-                  'assets/web.png',
-                  height: height * 0.7,
-                ),
-              ),
+              // Expanded(
+              //   child: Image.asset(
+              //     'assets/web.png',
+              //     height: height * 0.7,
+              //   ),
+              // ),
               Expanded(
                 flex: width < 1230 ? 2 : 1,
                 child: Container(
@@ -47,7 +48,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       AdaptiveText(
-                        "Who am I?",
+                        "Qui je suis ?",
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.025),
                       ),
@@ -55,7 +56,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "I'm Deal Célestin, a Flutter developer, Technical blog writer and UI designer.",
+                        "Je suis Célestin Deal élève ingénieur par apprentissage en informatique.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
@@ -68,7 +69,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 1.5 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm an active Google Developer Student Clubs (DSC) lead and also CEO/Founder Flutter Islamabad, Pakistan.",
+                        "Après 2 baccalauréat en 4 ans, un DUT GEII, 2 Stages volontaires en programmation Mobile Flutter/Dart, 2 voyages linguistiques anglophones et une application créée, j'ai finalement réussi à intégrer une école d'ingénieur en alternance. Grâce à mon parcours atypique j'ai su développer des compétences opérationnelles, mais aussi un fort sens de la résilience.",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.02,
                           color: Colors.grey[500],
@@ -90,7 +91,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "Technologies I have worked with:",
+                        "Mes téchnologie:",
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.018),
                       ),
@@ -116,52 +117,52 @@ class AboutDesktop extends StatelessWidget {
                       SizedBox(
                         height: height * 0.025,
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          AboutMeMetaData(
-                            data: "Name",
-                            information: "Deal Célestin",
-                          ),
-                          AboutMeMetaData(
-                            data: "Email",
-                            information: "Célestin.6.shakeel@gmail.com",
-                          ),
-                        ],
-                      ),
-                      SizedBox(
-                        height: height * 0.02,
-                      ),
-                      Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: OutlinedCustomBtn(
-                              onPressed: () {
-                                html.window.open(
-                                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
-                                    "pdf");
-                              },
-                              btnText: "Resume",
-                            ),
-                          ),
-                          Container(
-                            width: width * 0.05,
-                            decoration: BoxDecoration(
-                              border: Border(
-                                bottom: BorderSide(
-                                    color: Colors.grey[900], width: 2.0),
-                              ),
-                            ),
-                          ),
-                          for (int i = 0; i < kCommunityLogo.length; i++)
-                            CommunityIconBtn(
-                              icon: kCommunityLogo[i],
-                              link: kCommunityLinks[i],
-                              height: _communityLogoHeight[i],
-                            ),
-                        ],
-                      ),
+                      // Row(
+                      //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      //   children: [
+                      //     AboutMeMetaData(
+                      //       data: "Nom",
+                      //       information: "Deal Célestin",
+                      //     ),
+                      //     AboutMeMetaData(
+                      //       data: "Email",
+                      //       information: "celestindeal42@gmail.com",
+                      //     ),
+                      //   ],
+                      // ),
+                      // SizedBox(
+                      //   height: height * 0.02,
+                      // ),
+                      // Row(
+                      //   children: [
+                      //     Padding(
+                      //       padding: const EdgeInsets.all(8.0),
+                      //       child: OutlinedCustomBtn(
+                      //         onPressed: () {
+                      //           html.window.open(
+                      //               'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                      //               "pdf");
+                      //         },
+                      //         btnText: "Resume",
+                      //       ),
+                      //     ),
+                      //     Container(
+                      //       width: width * 0.05,
+                      //       decoration: BoxDecoration(
+                      //         border: Border(
+                      //           bottom: BorderSide(
+                      //               color: Colors.grey[900], width: 2.0),
+                      //         ),
+                      //       ),
+                      //     ),
+                      //     for (int i = 0; i < kCommunityLogo.length; i++)
+                      //       CommunityIconBtn(
+                      //         icon: kCommunityLogo[i],
+                      //         link: kCommunityLinks[i],
+                      //         height: _communityLogoHeight[i],
+                      //       ),
+                      //   ],
+                      // ),
                     ],
                   ),
                 ),
