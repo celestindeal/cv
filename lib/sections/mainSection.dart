@@ -31,8 +31,8 @@ class _MainPageState extends State<MainPage> {
 
   final List<String> _sectionsName = [
     "ACCUEIL",
-    "PRESENTATION",
-    "SERVICES",
+    "PRÉSENTATION",
+    // "SERVICES",
     "PROJECTS",
     "CONTACT"
   ];
@@ -68,7 +68,8 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 1) {
       return About();
     } else if (i == 2) {
-      return Services();
+      // return Services();
+      return Container();
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
@@ -231,7 +232,7 @@ class _MainPageState extends State<MainPage> {
           duration: Duration(milliseconds: 250),
           child: Container(
             height: 60.0,
-            width: 120.0,
+            // width: 120.0,
             padding: const EdgeInsets.all(8.0),
             child: MaterialButton(
               hoverColor: kPrimaryColor.withAlpha(150),
@@ -244,7 +245,7 @@ class _MainPageState extends State<MainPage> {
                     "pdf");
               },
               child: Text(
-                "RESUME",
+                "TÉLÉCHARGER",
                 style: GoogleFonts.montserrat(
                   color: _themeProv.lightTheme ? Colors.black : Colors.white,
                   fontWeight: FontWeight.w300,
