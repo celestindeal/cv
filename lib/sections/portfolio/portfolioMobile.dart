@@ -15,9 +15,10 @@ class PortfolioMobileTab extends StatelessWidget {
         children: [
           CustomSectionHeading(text: "\nPortfolio"),
           CustomSectionSubHeading(
-              text: "Here are few samples of my previous work :)\n\n"),
+              text:
+                  "Voici quelques exemples de projets sur lesquels j'ai travaillé :)\n\n"),
           CarouselSlider.builder(
-            itemCount: 10,
+            itemCount: 4,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 15.0),
