@@ -80,38 +80,38 @@ final kServicesLinks = [
 
 // projects
 final kProjectsBanner = [
-  "assets/projects/flutter_blanc.png",
-  "assets/projects/flutter_blanc.png",
+  "assets/projects/meetball.png",
+  "assets/projects/photo.jpg",
   "assets/projects/fanuc.png",
-  "assets/projects/flutter_blanc.png",
+  "assets/projects/pdf.png",
 ];
 
 final kProjectsIcons = [
-  "assets/projects/flutter.png",
-  "assets/projects/flutter.png",
-  "assets/projects/flutter.png",
-  "assets/projects/flutter.png",
+  "assets/projects/logo_meetball.jpg",
+  "assets/projects/logo_photo.jpg",
+  "assets/projects/logo_fanuc.png",
+  "assets/projects/logo_pdf.png",
 ];
 
 final kProjectsTitles = [
-  "MedKit",
-  "The Holy Qur'an",
-  "Here I Am",
-  "COVID-19",
+  "MeetBall",
+  "Photo search",
+  "Olympiades Fanuc",
+  "PDF",
 ];
 
 final kProjectsDescriptions = [
-  "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
-  "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
-  "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
-  "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
+  "Meetball avais pour objectif d’être une application de rencontre sportive destiner au basket.",
+  "Ce projet a pour but d’aider l’utilisateur à retrouver ces photos dans sa gallérie.",
+  "Leurs de mon DUT GEII j'ai été finaliste aux olympiades Fanuc.",
+  "Ce projet doit proposer une application qui prend des photos qui sont recevables devant la justice.",
 ];
 
 final kProjectsLinks = [
-  "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter",
-  "https://github.com/mhmzdev/The_Holy_Quran_App",
-  "https://github.com/mhmzdev/Here-I-Am-Alert-App",
-  "https://github.com/mhmzdev/Covid19-Tracker-App",
+  "https://gitlab.com/DealCelestin/meetball",
+  "https://gitlab.com/DealCelestin/photo_search",
+  "https://olympiades-fanuc.com/",
+  "https://gitlab.com/DealCelestin/pdf",
 ];
 
 // Contact
