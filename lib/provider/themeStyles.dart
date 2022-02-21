@@ -11,6 +11,7 @@ class ThemeStyles {
             primaryColorLight: kPrimaryColor,
             brightness: Brightness.light,
             primaryColor: kPrimaryColor,
+            // ignore: deprecated_member_use
             accentColor: Colors.black,
             highlightColor: Colors.black,
             canvasColor: Colors.white,
@@ -21,6 +22,7 @@ class ThemeStyles {
             primarySwatch: Colors.red,
             primaryColorDark: kPrimaryColor,
             primaryColor: kPrimaryColor,
+            // ignore: deprecated_member_use
             accentColor: kPrimaryColor,
             highlightColor: kPrimaryColor,
             canvasColor: Colors.white,

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/adaptiveText.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Footer extends StatelessWidget {
   @override
@@ -21,19 +21,21 @@ class Footer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             AdaptiveText(
-              "Developed in 💙 with ",
+              "Développer avec ",
               style: GoogleFonts.montserrat(
                 fontWeight: FontWeight.w300,
                 color: _themeProvider.lightTheme ? Colors.black : Colors.white,
               ),
             ),
             InkWell(
-              onTap: () => launchURL("https://github.com/mhmzdev/DevFolio"),
-              child: Text(
-                "Flutter",
-                style: TextStyle(color: Colors.blue),
-              ),
-            )
+                child: Text(
+                  "Flutter",
+                  style: TextStyle(color: Colors.blue),
+                ),
+                onTap: () async {
+                  String _url = "https://flutter.dev/";
+                  if (!await launch(_url)) throw 'Could not launch $_url';
+                })
           ],
         ),
       ),

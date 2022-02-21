@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:folio/animations/bottomAnimation.dart';
-import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:folio/widget/projectCard.dart';
 import 'package:folio/constants.dart';
@@ -18,7 +17,8 @@ class PortfolioDesktop extends StatelessWidget {
         children: [
           CustomSectionHeading(text: "\nPortfolio"),
           CustomSectionSubHeading(
-              text: "Here are few samples of my previous work :)\n\n"),
+              text:
+                  "Voici quelques exemples de projets sur lesquels j'ai travaillé :)\n\n"),
           SizedBox(
             height: width > 1200 ? height * 0.45 : width * 0.21,
             child: ListView.separated(
@@ -49,11 +49,11 @@ class PortfolioDesktop extends StatelessWidget {
           SizedBox(
             height: height * 0.02,
           ),
-          OutlinedCustomBtn(
-              btnText: "See More",
-              onPressed: () {
-                launchURL("https://github.com/mhmzdev");
-              })
+          // OutlinedCustomBtn(
+          //     btnText: "See More",
+          //     onPressed: () {
+          //       launchURL("https://github.com/mhmzdev");
+          //     })
         ],
       ),
     );

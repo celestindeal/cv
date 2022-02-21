@@ -1,10 +1,7 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:provider/provider.dart';
 import 'package:universal_html/html.dart' as html;
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:folio/animations/entranceFader.dart';
 import 'package:folio/constants.dart';
@@ -13,7 +10,6 @@ import 'package:folio/sections/contact/contact.dart';
 import 'package:folio/sections/home/home.dart';
 import 'package:folio/sections/navBar/navBarLogo.dart';
 import 'package:folio/sections/portfolio/portfolio.dart';
-import 'package:folio/sections/services/services.dart';
 import 'package:folio/widget/arrowOnTop.dart';
 import 'package:folio/widget/footer.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -30,9 +26,9 @@ class _MainPageState extends State<MainPage> {
   ScrollController _scrollController = ScrollController();
 
   final List<String> _sectionsName = [
-    "HOME",
-    "ABOUT",
-    "SERVICES",
+    "ACCUEIL",
+    "PRÉSENTATION",
+    // "SERVICES",
     "PROJECTS",
     "CONTACT"
   ];
@@ -68,7 +64,8 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 1) {
       return About();
     } else if (i == 2) {
-      return Services();
+      // return Services();
+      return Container();
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
@@ -231,7 +228,7 @@ class _MainPageState extends State<MainPage> {
           duration: Duration(milliseconds: 250),
           child: Container(
             height: 60.0,
-            width: 120.0,
+            // width: 120.0,
             padding: const EdgeInsets.all(8.0),
             child: MaterialButton(
               hoverColor: kPrimaryColor.withAlpha(150),
@@ -240,11 +237,11 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing',
+                    'https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing',
                     "pdf");
               },
               child: Text(
-                "RESUME",
+                "TÉLÉCHARGER",
                 style: GoogleFonts.montserrat(
                   color: _themeProv.lightTheme ? Colors.black : Colors.white,
                   fontWeight: FontWeight.w300,
@@ -318,7 +315,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1GF-wtbu2ob_Uxhw2In2QA8QiYi3XjCj1/view?usp=sharing");
+                        "https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing");
                   },
                   child: ListTile(
                     leading: Icon(
@@ -326,7 +323,7 @@ class _MainPageState extends State<MainPage> {
                       color: Colors.red,
                     ),
                     title: Text(
-                      "RESUME",
+                      "TÉLÉCHARGER",
                       style: GoogleFonts.montserrat(
                         fontWeight: FontWeight.w300,
                         color: theme.lightTheme ? Colors.black : Colors.white,

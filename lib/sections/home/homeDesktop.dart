@@ -21,22 +21,22 @@ class HomeDesktop extends StatelessWidget {
       width: width,
       child: Stack(
         children: [
-          Positioned(
-            top: width < 1200 ? height * 0.15 : height * 0.1,
-            right: width * 0.01,
-            child: Opacity(
-              opacity: 0.9,
-              child: EntranceFader(
-                offset: Offset(0, 0),
-                delay: Duration(seconds: 1),
-                duration: Duration(milliseconds: 800),
-                child: Image.asset(
-                  'assets/1.png',
-                  height: width < 1200 ? height * 0.8 : height * 0.85,
-                ),
-              ),
-            ),
-          ),
+          // Positioned(
+          //   top: width < 1200 ? height * 0.15 : height * 0.1,
+          //   right: width * 0.01,
+          //   child: Opacity(
+          //     opacity: 0.9,
+          //     child: EntranceFader(
+          //       offset: Offset(0, 0),
+          //       delay: Duration(seconds: 1),
+          //       duration: Duration(milliseconds: 800),
+          //       child: Image.asset(
+          //         'assets/1.png',
+          //         height: width < 1200 ? height * 0.8 : height * 0.85,
+          //       ),
+          //     ),
+          //   ),
+          // ),
           Container(
             margin:
                 EdgeInsets.fromLTRB(width * 0.1, height * 0.2, width * 0.1, 0),
@@ -47,7 +47,7 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     AdaptiveText(
-                      "WELCOME TO MY PORTFOLIO! ",
+                      "BIENVENUE SUR MON PORTFOLIO! ",
                       style: GoogleFonts.montserrat(
                         fontSize: height * 0.03,
                         fontWeight: FontWeight.w300,
@@ -56,22 +56,22 @@ class HomeDesktop extends StatelessWidget {
                             : Colors.white,
                       ),
                     ),
-                    EntranceFader(
-                      offset: Offset(0, 0),
-                      delay: Duration(seconds: 2),
-                      duration: Duration(milliseconds: 800),
-                      child: Image.asset(
-                        "assets/hi.gif",
-                        height: height * 0.05,
-                      ),
-                    ),
+                    // EntranceFader(
+                    //   offset: Offset(0, 0),
+                    //   delay: Duration(seconds: 2),
+                    //   duration: Duration(milliseconds: 800),
+                    //   child: Image.asset(
+                    //     "assets/hi.gif",
+                    //     height: height * 0.05,
+                    //   ),
+                    // ),
                   ],
                 ),
                 SizedBox(
                   height: height * 0.04,
                 ),
                 AdaptiveText(
-                  "Muhammad",
+                  "Deal",
                   style: GoogleFonts.montserrat(
                       fontSize: width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
@@ -81,7 +81,7 @@ class HomeDesktop extends StatelessWidget {
                       letterSpacing: 4.0),
                 ),
                 AdaptiveText(
-                  "Hamza",
+                  "Célestin",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black
@@ -102,7 +102,7 @@ class HomeDesktop extends StatelessWidget {
                       ),
                       TyperAnimatedTextKit(
                           isRepeatingAnimation: true,
-                          speed: Duration(milliseconds: 50),
+                          speed: Duration(milliseconds: 100),
                           textStyle: GoogleFonts.montserrat(
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200,
@@ -110,11 +110,7 @@ class HomeDesktop extends StatelessWidget {
                                 ? Colors.black
                                 : Colors.white,
                           ),
-                          text: [
-                            " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
-                          ]),
+                          text: [" Inversti", " Travailleur", " Ambitieux"]),
                     ],
                   ),
                 ),

@@ -1,6 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/widget/socialMediaIcon.dart';
@@ -24,14 +23,14 @@ class _HomeMobileState extends State<HomeMobile> {
       width: width,
       child: Stack(
         children: [
-          Positioned(
-            bottom: 0.0,
-            right: -width * 0.25,
-            child: Opacity(
-              opacity: 0.9,
-              child: Image.asset('assets/1.png', height: height * 0.65),
-            ),
-          ),
+          // Positioned(
+          //   bottom: 0.0,
+          //   right: -width * 0.25,
+          //   child: Opacity(
+          //     opacity: 0.9,
+          //     child: Image.asset('assets/1.png', height: height * 0.65),
+          //   ),
+          // ),
           Container(
             margin: EdgeInsets.fromLTRB(width * 0.07, height * 0.12, 0, 0),
             child: Column(
@@ -41,7 +40,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HEY THERE! ",
+                      "BIENVENUE! ",
                       style: GoogleFonts.montserrat(
                           fontSize: height * 0.025,
                           color: _themeProvider.lightTheme
@@ -49,17 +48,17 @@ class _HomeMobileState extends State<HomeMobile> {
                               : Colors.white,
                           fontWeight: FontWeight.w200),
                     ),
-                    Image.asset(
-                      "assets/hi.gif",
-                      height: height * 0.03,
-                    ),
+                    // Image.asset(
+                    //   "assets/hi.gif",
+                    //   height: height * 0.03,
+                    // ),
                   ],
                 ),
                 SizedBox(
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
+                  "Deal",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       color: _themeProvider.lightTheme
@@ -69,7 +68,7 @@ class _HomeMobileState extends State<HomeMobile> {
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "Célestin",
                   style: GoogleFonts.montserrat(
                       color: _themeProvider.lightTheme
                           ? Colors.black
@@ -92,11 +91,7 @@ class _HomeMobileState extends State<HomeMobile> {
                                 ? Colors.black
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
-                        text: [
-                          " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
-                        ]),
+                        text: [" Inversti", " Travailleur", " Ambitieux"]),
                   ],
                 ),
                 SizedBox(
