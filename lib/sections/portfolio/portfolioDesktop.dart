@@ -65,8 +65,11 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                   right: 0,
                   child: GestureDetector(
                     onTap: () {
-                      double currentScroll = control.position.pixels;
-                      control.jumpTo(currentScroll + width * 0.4);
+                      double jumpe = control.position.pixels + width * 0.4;
+                      if (jumpe > control.position.maxScrollExtent) {
+                        jumpe = control.position.maxScrollExtent;
+                      }
+                      control.jumpTo(jumpe);
                     },
                     child: Container(
                         width: width < 1200 ? height * 0.32 : height * 0.1,
@@ -79,8 +82,11 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                   left: 0,
                   child: GestureDetector(
                     onTap: () {
-                      double currentScroll = control.position.pixels;
-                      control.jumpTo(currentScroll - width * 0.4);
+                      double jumpe = control.position.pixels - width * 0.4;
+                      if (jumpe < control.position.minScrollExtent) {
+                        jumpe = control.position.minScrollExtent;
+                      }
+                      control.jumpTo(jumpe);
                     },
                     child: Container(
                         width: width < 1200 ? height * 0.32 : height * 0.1,
