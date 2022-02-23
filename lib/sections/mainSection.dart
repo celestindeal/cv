@@ -47,9 +47,9 @@ class _MainPageState extends State<MainPage> {
       i == 0
           ? 0.0
           : i == 1
-              ? MediaQuery.of(context).size.height * 1.05
+              ? MediaQuery.of(context).size.height * 1
               : i == 2
-                  ? MediaQuery.of(context).size.height * 1.98
+                  ? MediaQuery.of(context).size.height * 1.95
                   : i == 3
                       ? MediaQuery.of(context).size.height * 2.9
                       : MediaQuery.of(context).size.height * 4,

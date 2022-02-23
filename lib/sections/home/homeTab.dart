@@ -89,7 +89,7 @@ class HomeTab extends StatelessWidget {
                               ? Colors.black
                               : Colors.white,
                         ),
-                        text: [" Inversti", " Travailleur", " Ambitieux"]),
+                        text: [" Investi", " Travailleur", " Ambitieux"]),
                   ],
                 ),
                 SizedBox(
