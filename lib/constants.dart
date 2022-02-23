@@ -128,7 +128,7 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "Célestin@mhmz.dev"
+  "Lyon, France",
+  "(+33) 6 13 29 97 69",
+  "celestindeal42@gmail.com"
 ];

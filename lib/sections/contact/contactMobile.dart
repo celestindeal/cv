@@ -12,9 +12,9 @@ class ContactMobileTab extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nGet in Touch"),
+          CustomSectionHeading(text: "\nContacter moi"),
           CustomSectionSubHeading(
-              text: "Let's build something together :)\n\n"),
+              text: "Construisons quelque chose ensemble :)\n\n"),
           CarouselSlider.builder(
             itemCount: 3,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
