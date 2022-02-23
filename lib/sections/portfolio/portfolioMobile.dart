@@ -1,7 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:folio/widget/projectCard.dart';
 
@@ -42,11 +41,6 @@ class PortfolioMobileTab extends StatelessWidget {
           SizedBox(
             height: height * 0.03,
           ),
-          OutlinedCustomBtn(
-              btnText: "See More",
-              onPressed: () {
-                launchURL("https://github.com/mhmzdev");
-              })
         ],
       ),
     );
