@@ -91,7 +91,7 @@ class _HomeMobileState extends State<HomeMobile> {
                                 ? Colors.black
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
-                        text: [" Inversti", " Travailleur", " Ambitieux"]),
+                        text: [" Investi", " Travailleur", " Ambitieux"]),
                   ],
                 ),
                 SizedBox(
