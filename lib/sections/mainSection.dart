@@ -137,16 +137,16 @@ class _MainPageState extends State<MainPage> {
             sectionsLength: _sectionsIcons.length,
             sectionWidget: sectionWidget,
           ),
-          _isScrollingDown
-              ? Positioned(
-                  bottom: 90,
-                  right: 0,
-                  child: EntranceFader(
-                      offset: Offset(0, 20),
-                      child: ArrowOnTop(
-                        onPressed: () => _scroll(0),
-                      )))
-              : Container()
+          // _isScrollingDown
+          //     ? Positioned(
+          //         bottom: 90,
+          //         right: 0,
+          //         child: EntranceFader(
+          //             offset: Offset(0, 20),
+          //             child: ArrowOnTop(
+          //               onPressed: () => _scroll(0),
+          //             )))
+          //     : Container()
         ],
       ),
     );
