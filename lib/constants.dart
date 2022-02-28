@@ -132,3 +132,27 @@ final kContactDetails = [
   "(+33) 6 13 29 97 69",
   "celestindeal42@gmail.com"
 ];
+
+final diplome_anne = [
+  "2021-2024",
+  "2020-2020",
+  "Août 2019 et Août 2020",
+  "2018-2020",
+  "2017-2018"
+];
+
+final diplome_ecole = [
+  "Polytechnique Lyon",
+  "École Nationale Supérieure d’Électronique, Informatique, Télécommunications, Mathématique et Mécanique de Bordeaux",
+  "Active centre of english training et Malta Lingua",
+  "Université Clermont Auvergne",
+  "CFAI Loire Pôle formation des industries technologiques",
+];
+
+final diplome_nom = [
+  "Diplôme d'ingénieur, Informatique par Apprantissage",
+  "Diplôme d'ingénieur, Informatique",
+  "Validation du niveau B1",
+  "Diplôme Universitaire de Technologie en Génie Électrique et Informatique Industrielle",
+  "Baccalauréat Professionnel Électrotechnique Énergie Équipements Communicants (Mention Très Bien) ",
+];

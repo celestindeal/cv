@@ -1,5 +1,6 @@
 import 'package:flutter/rendering.dart';
 import 'package:folio/provider/themeProvider.dart';
+import 'package:folio/sections/Formation/formation.dart';
 import 'package:provider/provider.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
@@ -28,7 +29,7 @@ class _MainPageState extends State<MainPage> {
   final List<String> _sectionsName = [
     "ACCUEIL",
     "PRÉSENTATION",
-    // "SERVICES",
+    "DIPLÔME",
     "PROJECTS",
     "CONTACT"
   ];
@@ -64,8 +65,7 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 1) {
       return About();
     } else if (i == 2) {
-      // return Services();
-      return Container();
+      return Formation();
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
