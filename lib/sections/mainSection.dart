@@ -1,5 +1,6 @@
 import 'package:flutter/rendering.dart';
 import 'package:folio/provider/themeProvider.dart';
+import 'package:folio/sections/Experiance/formation.dart';
 import 'package:folio/sections/Formation/formation.dart';
 import 'package:provider/provider.dart';
 import 'package:universal_html/html.dart' as html;
@@ -31,6 +32,7 @@ class _MainPageState extends State<MainPage> {
     "PRÉSENTATION",
     "DIPLÔME",
     "PROJECTS",
+    "EXPERIANCE",
     "CONTACT"
   ];
 
@@ -39,6 +41,7 @@ class _MainPageState extends State<MainPage> {
     Icons.person,
     Icons.settings,
     Icons.build,
+    Icons.article,
     Icons.article,
     Icons.phone,
   ];
@@ -53,7 +56,9 @@ class _MainPageState extends State<MainPage> {
                   ? MediaQuery.of(context).size.height * 1.95
                   : i == 3
                       ? MediaQuery.of(context).size.height * 2.9
-                      : MediaQuery.of(context).size.height * 4,
+                      : i == 4
+                          ? MediaQuery.of(context).size.height * 4
+                          : MediaQuery.of(context).size.height * 5,
       duration: Duration(seconds: 1),
       curve: Curves.easeInOut,
     );
@@ -69,8 +74,10 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 3) {
       return Portfolio();
     } else if (i == 4) {
-      return Contact();
+      return Experiance();
     } else if (i == 5) {
+      return Contact();
+    } else if (i == 6) {
       return Footer();
     } else {
       return Container();

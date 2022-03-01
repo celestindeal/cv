@@ -99,6 +99,22 @@ class AboutDesktop extends StatelessWidget {
                       SizedBox(
                         height: height * 0.02,
                       ),
+                      AdaptiveText(
+                        "Mes outils:",
+                        style: GoogleFonts.montserrat(
+                            color: kPrimaryColor, fontSize: height * 0.018),
+                      ),
+                      Row(
+                        children: [
+                          for (int i = 0; i < koutil.length; i++)
+                            ToolTechWidget(
+                              techName: koutil[i],
+                            ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: height * 0.02,
+                      ),
                       Container(
                         decoration: BoxDecoration(
                           border: Border(

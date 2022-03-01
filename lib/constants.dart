@@ -36,6 +36,7 @@ final kCommunityLinks = [
 
 // Tools & Tech
 final kTools = ["Flutter", "Dart", "Python", "Java", "C", "HTML", "CSS"];
+final koutil = ["Git", "VS Code", "Android Studio", "FileZilla"];
 
 // services
 final kServicesIcons = [

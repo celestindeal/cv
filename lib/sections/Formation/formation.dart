@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:folio/sections/Formation/FormationDesktop.dart';
 import 'package:folio/sections/Formation/FormationMobile.dart';
-import 'package:folio/sections/Formation/FormationTab.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class Formation extends StatefulWidget {
@@ -14,7 +13,8 @@ class _FormationState extends State<Formation> {
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
       mobile: FormationMobile(),
-      tablet: FormationTab(),
+      tablet: FormationDesktop(),
+      // tablet: FormationTab(),
       desktop: FormationDesktop(), // quand je suis sur un ordinateur
     );
   }
