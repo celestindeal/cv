@@ -16,9 +16,9 @@ class AboutDesktop extends StatelessWidget {
 
     return Container(
       height: height - 50,
-      padding: EdgeInsets.symmetric(
-        horizontal: width * 0.02,
-      ),
+      // padding: EdgeInsets.symmetric(
+      //   horizontal: width * 0.02,
+      // ),
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [

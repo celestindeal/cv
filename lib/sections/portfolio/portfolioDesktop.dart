@@ -23,7 +23,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
     double width = MediaQuery.of(context).size.width;
 
     return Container(
-      height: height,
+      height: height - 50,
       padding: EdgeInsets.symmetric(
           horizontal: width * 0.02, vertical: height * 0.02),
       child: Column(

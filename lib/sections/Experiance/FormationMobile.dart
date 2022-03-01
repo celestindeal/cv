@@ -22,8 +22,8 @@ class ExperianceMobile extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\n Mes diplôles "),
-          CustomSectionSubHeading(text: "Découvrir mon parcours :)"),
+          CustomSectionHeading(text: "\n Mes Expérience "),
+          CustomSectionSubHeading(text: "Un parcours atypique :)"),
           SizedBox(height: 30.0),
           Expanded(
             child: Container(
@@ -37,12 +37,12 @@ class ExperianceMobile extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         AdaptiveText(
-                          diplome_anne[index],
+                          experience_anne[index],
                           style: GoogleFonts.montserrat(
                               color: kPrimaryColor, fontSize: height * 0.015),
                         ),
                         AdaptiveText(
-                          diplome_ecole[index],
+                          experience_ecole[index],
                           style: GoogleFonts.montserrat(
                             fontSize: height * 0.02,
                             fontWeight: FontWeight.w400,
@@ -52,7 +52,7 @@ class ExperianceMobile extends StatelessWidget {
                           ),
                         ),
                         AdaptiveText(
-                          diplome_nom[index],
+                          experience_nom[index],
                           style: GoogleFonts.montserrat(
                             fontSize: height * 0.016,
                             color: Colors.grey[500],

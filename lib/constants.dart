@@ -133,7 +133,7 @@ final kContactDetails = [
   "(+33) 6 13 29 97 69",
   "celestindeal42@gmail.com"
 ];
-
+// Page diplome
 final diplome_anne = [
   "2021-2024",
   "2020-2020",
@@ -156,4 +156,30 @@ final diplome_nom = [
   "Validation du niveau B1",
   "Diplôme Universitaire de Technologie en Génie Électrique et Informatique Industrielle",
   "Baccalauréat Professionnel Électrotechnique Énergie Équipements Communicants (Mention Très Bien) ",
+];
+
+// page experience
+
+final experience_anne = [
+  "2021-2024",
+  "Début 2021",
+  "Février 2020 et Octobre 2021",
+  "2020 3 mois",
+  "2017-2018"
+];
+
+final experience_ecole = [
+  "Apprenti ingénieur DevOps",
+  "Vial Gaydon, Technicien maintenance",
+  "Création D'entreprise",
+  "Stagiaire, Dévellopeur mobile",
+  "Apprenti Électrotechnicien",
+];
+
+final experience_nom = [
+  "Orange",
+  "Vial Gaydon",
+  "Meetball, Application de rencontre sportive",
+  "Applilogik, Apprentissage du Framework Flutter",
+  "Jeannet Débit, Installation et maintenance des robots de traite delaval et repousse fourrage.",
 ];

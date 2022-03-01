@@ -32,7 +32,7 @@ class _MainPageState extends State<MainPage> {
     "PRÉSENTATION",
     "DIPLÔME",
     "PROJECTS",
-    "EXPERIANCE",
+    "EXPÉRIENCE",
     "CONTACT"
   ];
 
@@ -41,7 +41,7 @@ class _MainPageState extends State<MainPage> {
     Icons.person,
     Icons.settings,
     Icons.build,
-    Icons.article,
+    Icons.work_sharp,
     Icons.article,
     Icons.phone,
   ];
@@ -51,13 +51,13 @@ class _MainPageState extends State<MainPage> {
       i == 0
           ? 0.0
           : i == 1
-              ? MediaQuery.of(context).size.height * 1
+              ? MediaQuery.of(context).size.height * 1 - 50
               : i == 2
-                  ? MediaQuery.of(context).size.height * 1.95
+                  ? MediaQuery.of(context).size.height * 2 - 100
                   : i == 3
-                      ? MediaQuery.of(context).size.height * 2.9
+                      ? MediaQuery.of(context).size.height * 3 - 100
                       : i == 4
-                          ? MediaQuery.of(context).size.height * 4
+                          ? MediaQuery.of(context).size.height * 4 - 150
                           : MediaQuery.of(context).size.height * 5,
       duration: Duration(seconds: 1),
       curve: Curves.easeInOut,
