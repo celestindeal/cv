@@ -5,8 +5,10 @@ import 'package:folio/widget/adaptiveText.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter/services.dart';
 
 class ProjectCard extends StatefulWidget {
+  final String copie;
   final String projectIcon;
   final IconData projectIconData;
   final String projectTitle;
@@ -19,6 +21,7 @@ class ProjectCard extends StatefulWidget {
 
   const ProjectCard(
       {Key key,
+      this.copie,
       this.backImage,
       this.bottomWidget,
       this.projectIcon,
@@ -42,7 +45,17 @@ class _ProjectCardState extends State<ProjectCard> {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return InkWell(
-      onTap: () => launch(widget.projectLink),
+      onTap: () {
+        Scaffold.of(context).showSnackBar(new SnackBar(
+          duration: Duration(seconds: 1),
+          content: Text(
+            'Text Copier',
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.black,
+        ));
+        Clipboard.setData(ClipboardData(text: widget.copie));
+      },
       onHover: (isHovering) {
         if (isHovering) {
           setState(() {
@@ -67,8 +80,9 @@ class _ProjectCardState extends State<ProjectCard> {
                     width: 3.0,
                   )
                 : BorderSide(
-                    color:
-                        _themeProvider.lightTheme ? Colors.white : Colors.grey[900],
+                    color: _themeProvider.lightTheme
+                        ? Colors.white
+                        : Colors.grey[900],
                   ),
           ),
           boxShadow: isHover

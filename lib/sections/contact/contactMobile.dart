@@ -25,6 +25,7 @@ class ContactMobileTab extends StatelessWidget {
                 projectIconData: kContactIcons[i],
                 projectTitle: kContactTitles[i],
                 projectDescription: kContactDetails[i],
+                copie: kContactDetails[i],
               ),
             ),
             options: CarouselOptions(
