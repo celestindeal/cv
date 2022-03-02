@@ -17,7 +17,7 @@ class ExperianceMobile extends StatelessWidget {
     return Container(
       height: height,
       padding: EdgeInsets.symmetric(
-        horizontal: width * 0.05,
+        horizontal: width * 0.02,
       ),
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
