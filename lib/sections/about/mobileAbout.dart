@@ -21,7 +21,7 @@ class AboutMobile extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nA Propo de moi"),
+          CustomSectionHeading(text: "\nA Propos de moi"),
           CustomSectionSubHeading(text: "Apprendre à me connaître :)"),
           // Image.asset(
           //   'assets/mob.png',
@@ -55,7 +55,7 @@ class AboutMobile extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "Après 2 baccalauréat en 4 ans, un DUT GEII, 2 Stages volontaires en programmation Mobile Flutter/Dart, 2 voyages linguistiques anglophones et une application créée, j'ai finalement réussi à intégrer une école d'ingénieur en alternance. Grâce à mon parcours atypique j'ai su développer des compétences opérationnelles, mais aussi un fort sens de la résilience, ce qui me permettra de devenir un espère du développement mobile avec le Framework Flutter qui est mon chouchou dans le domaine.",
+            "Après 2 baccalauréat en 4 ans, un DUT GEII, 2 Stages volontaires en programmation Mobile Flutter/Dart, 2 voyages linguistiques anglophones et une application créée, j'ai finalement réussi à intégrer une école d'ingénieur en alternance. Grâce à mon parcours atypique j'ai su développer des compétences opérationnelles, mais aussi un fort sens de la résilience, ce qui me permettra de devenir un expert du développement mobile avec le Framework Flutter qui est mon chouchou dans le domaine.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.018,
               color: Colors.grey[500],

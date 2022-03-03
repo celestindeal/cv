@@ -243,6 +243,8 @@ class _MainPageState extends State<MainPage> {
                   borderRadius: BorderRadius.circular(5.0),
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
+                // lancer le téléchargement du cv
+
                 html.window.open(
                     'https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing',
                     "pdf");

@@ -22,7 +22,7 @@ class FormationDesktop extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\n Mes diplôles "),
+          CustomSectionHeading(text: "\n Mes diplômes "),
           CustomSectionSubHeading(text: "Découvrir mon parcours :)"),
           SizedBox(height: 30.0),
           Expanded(

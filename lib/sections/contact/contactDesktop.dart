@@ -15,7 +15,7 @@ class ContactDesktop extends StatelessWidget {
           horizontal: width * 0.02, vertical: height * 0.02),
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nContacter moi"),
+          CustomSectionHeading(text: "\nContactez moi"),
           CustomSectionSubHeading(
               text: "Construisons quelque chose ensemble :)\n\n"),
           Row(
