@@ -102,9 +102,9 @@ final kProjectsTitles = [
 ];
 
 final kProjectsDescriptions = [
-  "Meetball avais pour objectif d’être une application de rencontre sportive destiner au basket.",
-  "Ce projet a pour but d’aider l’utilisateur à retrouver ces photos dans sa gallérie.",
-  "Leurs de mon DUT GEII j'ai été finaliste aux olympiades Fanuc.",
+  "Meetball avait pour objectif d’être une application de rencontre sportive destinée au basket.",
+  "Ce projet a pour but d’aider l’utilisateur à retrouver ces photos dans sa galerie.",
+  "Lors de mon DUT GEII j'ai été finaliste aux olympiades Fanuc.",
   "Ce projet doit proposer une application qui prend des photos qui sont recevables devant la justice.",
 ];
 
@@ -144,7 +144,7 @@ final diplome_anne = [
 
 final diplome_ecole = [
   "Polytechnique Lyon",
-  "École Nationale Supérieure d’Électronique, Informatique, Télécommunications, Mathématique et Mécanique de Bordeaux",
+  "École Nationale Supérieure d’Électronique, Informatique, Télécommunications, Mathématiques et Mécanique de Bordeaux",
   "Active centre of english training et Malta Lingua",
   "Université Clermont Auvergne",
   "CFAI Loire Pôle formation des industries technologiques",

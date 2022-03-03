@@ -20,7 +20,7 @@ class ExperianceTab extends StatelessWidget {
       color: _themeProvider.lightTheme ? Colors.white : Colors.black,
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nA Propo de moi"),
+          CustomSectionHeading(text: "\nA Propos de moi"),
           CustomSectionSubHeading(text: "Apprendre à me connaître :)"),
           // Image.asset(
           //   'assets/mob.png',
