@@ -46,15 +46,20 @@ class _ProjectCardState extends State<ProjectCard> {
     double width = MediaQuery.of(context).size.width;
     return InkWell(
       onTap: () {
-        Scaffold.of(context).showSnackBar(new SnackBar(
-          duration: Duration(seconds: 1),
-          content: Text(
-            'Text Copier',
-            style: TextStyle(color: Colors.white),
-          ),
-          backgroundColor: Colors.black,
-        ));
-        Clipboard.setData(ClipboardData(text: widget.copie));
+        print(widget.copie);
+        if (widget.copie != null) {
+          Scaffold.of(context).showSnackBar(new SnackBar(
+            duration: Duration(seconds: 1),
+            content: Text(
+              'Text Copier',
+              style: TextStyle(color: Colors.white),
+            ),
+            backgroundColor: Colors.black,
+          ));
+          Clipboard.setData(ClipboardData(text: widget.copie));
+        } else {
+          launch(widget.projectLink);
+        }
       },
       onHover: (isHovering) {
         if (isHovering) {
