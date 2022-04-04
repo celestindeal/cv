@@ -69,7 +69,9 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                       if (jumpe > control.position.maxScrollExtent) {
                         jumpe = control.position.maxScrollExtent;
                       }
-                      control.jumpTo(jumpe);
+
+                      control.animateTo(jumpe,
+                          duration: Duration(seconds: 1), curve: Curves.ease);
                     },
                     child: Container(
                         width: width < 1200 ? height * 0.32 : height * 0.1,
@@ -86,7 +88,8 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                       if (jumpe < control.position.minScrollExtent) {
                         jumpe = control.position.minScrollExtent;
                       }
-                      control.jumpTo(jumpe);
+                      control.animateTo(jumpe,
+                          duration: Duration(seconds: 1), curve: Curves.ease);
                     },
                     child: Container(
                         width: width < 1200 ? height * 0.32 : height * 0.1,
