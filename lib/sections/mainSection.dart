@@ -246,7 +246,7 @@ class _MainPageState extends State<MainPage> {
                 // lancer le téléchargement du cv
 
                 html.window.open(
-                    'https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing',
+                    'https://drive.google.com/file/d/1HogsRIEXqZYNoILvuC4JMD9LXnFa3aiB/view?usp=sharing',
                     "pdf");
               },
               child: Text(
@@ -324,7 +324,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1HNqIR5uJINAZiU6zid9zPKoDE33x27Ys/view?usp=sharing");
+                        "https://drive.google.com/file/d/1HogsRIEXqZYNoILvuC4JMD9LXnFa3aiB/view?usp=sharing");
                   },
                   child: ListTile(
                     leading: Icon(
