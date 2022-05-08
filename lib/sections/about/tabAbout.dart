@@ -52,7 +52,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "Après 2 baccalauréat en 4 ans, un DUT GEII, 2 Stages volontaires en programmation Mobile Flutter/Dart, 2 voyages linguistiques anglophones et une application créée, j'ai finalement réussi à intégrer une école d'ingénieur en alternance. Grâce à mon parcours atypique j'ai su développer des compétences opérationnelles, mais aussi un fort sens de la résilience, ce qui me permettra de devenir un expert du développement mobile avec le Framework Flutter qui est mon chouchou dans le domaine.",
+            "Après 2 baccalauréats en 4 ans, un DUT GEII, 2 stages volontaires en programmation Mobile Flutter/Dart, 2 voyages linguistiques anglophones et une application créée, j'ai finalement réussi à intégrer une école d'ingénieur en alternance. Grâce à mon parcours atypique j'ai su développer des compétences opérationnelles, mais aussi un fort sens de la résilience, ce qui me permettra de devenir un expert du développement mobile avec le Framework Flutter qui est mon chouchou dans le domaine.",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.02,
               color: Colors.grey[500],

@@ -30,8 +30,8 @@ class _MainPageState extends State<MainPage> {
   final List<String> _sectionsName = [
     "ACCUEIL",
     "PRÉSENTATION",
-    "DIPLÔME",
-    "PROJECTS",
+    "DIPLÔMES",
+    "PROJETS",
     "EXPÉRIENCE",
     "CONTACT"
   ];

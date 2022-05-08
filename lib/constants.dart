@@ -82,6 +82,7 @@ final kServicesLinks = [
 // projects
 final kProjectsBanner = [
   "assets/projects/meetball.png",
+  "assets/projects/ferme.png",
   "assets/projects/photo.jpg",
   "assets/projects/fanuc.png",
   "assets/projects/pdf.png",
@@ -89,6 +90,7 @@ final kProjectsBanner = [
 
 final kProjectsIcons = [
   "assets/projects/logo_meetball.jpg",
+  "assets/projects/logo_ferme.png",
   "assets/projects/logo_photo.jpg",
   "assets/projects/logo_fanuc.png",
   "assets/projects/logo_pdf.png",
@@ -96,6 +98,7 @@ final kProjectsIcons = [
 
 final kProjectsTitles = [
   "MeetBall",
+  "La Ferme Deal",
   "Photo search",
   "Olympiades Fanuc",
   "PDF",
@@ -103,6 +106,7 @@ final kProjectsTitles = [
 
 final kProjectsDescriptions = [
   "Meetball avait pour objectif d’être une application de rencontre sportive destinée au basket.",
+  "Le projet du site web la ferme deal.",
   "Ce projet a pour but d’aider l’utilisateur à retrouver ces photos dans sa galerie.",
   "Lors de mon DUT GEII j'ai été finaliste aux olympiades Fanuc.",
   "Ce projet doit proposer une application qui prend des photos qui sont recevables devant la justice.",
@@ -110,6 +114,7 @@ final kProjectsDescriptions = [
 
 final kProjectsLinks = [
   "https://gitlab.com/DealCelestin/meetball",
+  "https://www.lafermedeal.fr/#/",
   "https://gitlab.com/DealCelestin/photo_search",
   "https://olympiades-fanuc.com/",
   "https://gitlab.com/DealCelestin/pdf",
@@ -151,7 +156,7 @@ final diplome_ecole = [
 ];
 
 final diplome_nom = [
-  "Diplôme d'ingénieur, Informatique par Apprantissage",
+  "Diplôme d'ingénieur, Informatique par Apprentissage",
   "Diplôme d'ingénieur, Informatique",
   "Validation du niveau B1",
   "Diplôme Universitaire de Technologie en Génie Électrique et Informatique Industrielle",
@@ -172,7 +177,7 @@ final experience_ecole = [
   "Apprenti ingénieur DevOps",
   "Vial Gaydon, Technicien maintenance",
   "Création D'entreprise",
-  "Stagiaire, Dévellopeur mobile",
+  "Stagiaire, Dévelopeur mobile",
   "Apprenti Électrotechnicien",
 ];
 
@@ -181,5 +186,5 @@ final experience_nom = [
   "Vial Gaydon",
   "Meetball, Application de rencontre sportive",
   "Applilogik, Apprentissage du Framework Flutter",
-  "Jeannet Débit, Installation et maintenance des robots de traite delaval et repousse fourrage.",
+  "Jeannet Débit, Installation et maintenance des robots de traite Delaval et repousse fourrage.",
 ];
